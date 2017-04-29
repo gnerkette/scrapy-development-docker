@@ -25,3 +25,6 @@ RUN apt-get install -qy libffi-dev libxml2-dev libxslt-dev lib32z1-dev libssl-de
 
 ## Scrapy
 RUN pip install lxml scrapy scrapyjs
+
+## LoginForm
+RUN pip install loginform
